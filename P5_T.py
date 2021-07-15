@@ -16,10 +16,15 @@ while True:
             pygame.quit()
             sys.exit()
     
-    rt_231 = font.render(t_231, True, (0, 0, 0))
-    rt_232 = font.render(t_232, True, (0, 0, 0))
+    rt_231 '''Render 1st multiple using font.render() and
+    pass parameters t_231 for text to render,
+    True for Antialiasing and black color code for color'''
+
+    rt_232 #Perform similar to above code for 2nd multiple and so on.
     
-    screen.blit(rt_231, (50, 50))
-    screen.blit(rt_232, (50, 70))
+    '''Paste 1st multiple using function screen.blit() and pass parameters
+    rt_231 for text to paste, and (50, 50) for position'''
+    
+    #Perform similar to above code for 2nd multiple and so on.
     
     pygame.display.update()
